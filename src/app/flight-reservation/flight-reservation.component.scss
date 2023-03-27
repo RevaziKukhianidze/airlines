@@ -1,0 +1,1009 @@
+* {
+  font-family: "Noto Sans Georgian";
+  font-style: normal;
+}
+
+.flight-reservation {
+  position: absolute;
+  margin: 1.43% 0%;
+  width: 785px;
+  height: 545px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  background: #ffffff;
+  font-family: "Noto Sans Georgian";
+  font-style: normal;
+
+  .departure {
+    .date {
+      .departure_date {
+        position: absolute;
+        left: 3.69%;
+        right: 77.07%;
+        top: 7.13%;
+        bottom: 88.59%;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3c3f49;
+        display: flex;
+        align-items: center;
+      }
+      .departure_departure {
+        position: absolute;
+        left: 3.69%;
+        right: 86.11%;
+        top: 13.19%;
+        bottom: 83.96%;
+
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8e96a5;
+      }
+      svg {
+        position: absolute;
+        left: 15.41%;
+        right: 81.53%;
+        top: 12.48%;
+        bottom: 83.24%;
+        border-radius: 50%;
+      }
+      .departures_ways {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 10px;
+        position: absolute;
+        width: 32px;
+        left: calc(50% - 32px / 2 - 223.5px);
+        top: 12.48%;
+        bottom: 83.24%;
+        background: #f4f6f8;
+        border-radius: 34px;
+        font-weight: 600;
+        color: #616c81;
+      }
+    }
+    .fly_scedule {
+      .fly_source {
+        h2 {
+          position: absolute;
+          left: 4.08%;
+          right: 90.57%;
+          top: 21.21%;
+          bottom: 74.51%;
+
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          display: flex;
+          align-items: center;
+
+          color: #3c3f49;
+        }
+        p {
+          position: absolute;
+          left: 4.08%;
+          right: 84.2%;
+          top: 26.38%;
+          bottom: 70.77%;
+
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+
+          display: flex;
+          align-items: center;
+
+          color: #8e96a5;
+        }
+      }
+      .fly_stations {
+        svg {
+          position: absolute;
+          left: 20.08%;
+          right: 84.2%;
+          top: 21.38%;
+          bottom: 70.77%;
+        }
+        .vector_1 {
+          position: absolute;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+          left: 22.08%;
+          right: 84.2%;
+          top: 23.38%;
+          bottom: 70.77%;
+
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+        }
+        .line_1 {
+          position: absolute;
+          background: #c2daf9;
+          width: 58px;
+          height: 3px;
+          left: 24.08%;
+          right: 84.2%;
+          top: 24.38%;
+          bottom: 70.77%;
+        }
+        .vector_2 {
+          position: absolute;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+          left: 31.78%;
+          right: 84.2%;
+          top: 23.38%;
+          bottom: 70.77%;
+
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+        }
+        .line_2 {
+          position: absolute;
+          background: #c2daf9;
+          width: 58px;
+          height: 3px;
+          left: 33.58%;
+          right: 84.2%;
+          top: 24.38%;
+          bottom: 70.77%;
+        }
+        .vector_3 {
+          position: absolute;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+          left: 41.28%;
+          right: 84.2%;
+          top: 23.38%;
+          bottom: 70.77%;
+
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+        }
+        .first_stop {
+          position: absolute;
+          left: 22.42%;
+          right: 68.66%;
+          top: 26.38%;
+          bottom: 70.77%;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+
+          display: flex;
+          align-items: center;
+
+          color: #8e96a5;
+        }
+        .total {
+          position: absolute;
+          left: 37.07%;
+          right: 51.34%;
+          top: 26.38%;
+          bottom: 70.77%;
+
+          font-family: "Noto Sans Georgian";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          /* identical to box height, or 133% */
+
+          display: flex;
+          align-items: center;
+          text-align: right;
+
+          /* Secondary Text / 3 */
+
+          color: #8e96a5;
+        }
+      }
+      .fly_destination {
+        h2 {
+          position: absolute;
+          left: 52.74%;
+          right: 41.91%;
+          top: 21.21%;
+          bottom: 74.51%;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          display: flex;
+          align-items: center;
+
+          color: #3c3f49;
+        }
+        p {
+          position: absolute;
+          left: 52.74%;
+          right: 36.94%;
+          top: 26.38%;
+          bottom: 70.77%;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+
+          color: #8e96a5;
+        }
+      }
+    }
+    .total_time {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 4px 12px;
+      gap: 10px;
+
+      position: absolute;
+      width: 167px;
+      height: 32px;
+      left: 29px;
+      top: 174px;
+      background: #ffffff;
+      border: 1px solid #c8d2dc;
+      border-radius: 34px;
+
+      svg {
+        width: 17.5px;
+        height: 15px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+
+        color: #3c3f49;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+
+  .return {
+    .ret_date {
+      .return_date {
+        position: absolute;
+        left: 4.08%;
+        right: 79.75%;
+        top: 47.06%;
+        bottom: 48.66%;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+
+        display: flex;
+        align-items: center;
+        color: #3c3f49;
+      }
+      .return_return {
+        position: absolute;
+        left: 4.08%;
+        right: 87.01%;
+        top: 53.12%;
+        bottom: 44.03%;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+
+        color: #8e96a5;
+      }
+      svg {
+        position: absolute;
+        left: 14.52%;
+        right: 82.42%;
+        top: 52.41%;
+        bottom: 43.32%;
+        border-radius: 50%;
+      }
+      .return_ways {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 10px;
+
+        position: absolute;
+        width: 32px;
+        left: calc(50% - 32px / 2 - 230.5px);
+        top: 52.41%;
+        bottom: 43.32%;
+
+        /* Stroke and Secondary/7 */
+
+        background: #f4f6f8;
+        border-radius: 34px;
+      }
+    }
+    .ret_fly_scedule {
+      .ret_fly_source {
+        h2 {
+          position: absolute;
+          left: 3.69%;
+          right: 90.96%;
+          top: 61.32%;
+          bottom: 34.4%;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          display: flex;
+          align-items: center;
+          color: #3c3f49;
+        }
+        p {
+          position: absolute;
+          left: 3.69%;
+          right: 84.46%;
+          top: 66.49%;
+          bottom: 30.66%;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+
+          display: flex;
+          align-items: center;
+          color: #8e96a5;
+        }
+      }
+      .ret_fly_stations {
+        svg {
+          position: absolute;
+          left: 20.08%;
+          right: 4.17%;
+          top: 61.67%;
+          bottom: 9.87%;
+        }
+        .vector_1 {
+          position: absolute;
+          left: 22.08%;
+          right: 7.41%;
+          top: 63.53%;
+          bottom: 14.02%;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+        }
+        .line_1 {
+          position: absolute;
+          left: 23.79%;
+          right: 68.92%;
+          top: 64.4%;
+          bottom: 35.1%;
+          width: 58px;
+          height: 3px;
+
+          background: #c2daf9;
+          border-radius: 2px;
+        }
+        .vector_2 {
+          position: absolute;
+          left: 31.19%;
+          right: 67.52%;
+          top: 63.46%;
+          bottom: 35.29%;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+        }
+        .line_2 {
+          position: absolute;
+          left: 32.99%;
+          right: 64.71%;
+          top: 64.4%;
+          bottom: 35.1%;
+
+          background: #c2daf9;
+          border-radius: 2px;
+        }
+        .vector_3 {
+          position: absolute;
+          left: 35.4%;
+          right: 63.31%;
+          top: 63.46%;
+          bottom: 35.29%;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+          background: #1a73e7;
+
+          border: 3px solid #ffffff;
+        }
+        .line_3 {
+          position: absolute;
+          left: 37.2%;
+          right: 59%;
+          top: 64.4%;
+          bottom: 35.1%;
+
+          background: #c2daf9;
+          border-radius: 2px;
+        }
+        .vector_4 {
+          position: absolute;
+          left: 41.3%;
+          right: 58.22%;
+          top: 63.46%;
+          bottom: 35.29%;
+          height: 7px;
+          width: 7px;
+          border-radius: 50%;
+
+          background: #1a73e7;
+
+          border: 3px solid #ffffff;
+        }
+        .first_stop {
+          position: absolute;
+          left: 22.17%;
+          right: 68.92%;
+          top: 66.49%;
+          bottom: 30.66%;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+
+          display: flex;
+          align-items: center;
+
+          color: #8e96a5;
+        }
+        .total {
+          position: absolute;
+          left: 36.82%;
+          right: 51.59%;
+          top: 66.49%;
+          bottom: 30.66%;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 16px;
+          display: flex;
+          align-items: center;
+          text-align: right;
+          color: #8e96a5;
+        }
+      }
+      .ret_fly_destination {
+        h2 {
+          position: absolute;
+          left: 52.8%;
+          right: 42.29%;
+          top: 61.32%;
+          bottom: 34.4%;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          display: flex;
+          align-items: center;
+
+          color: #3c3f49;
+        }
+        p {
+          position: absolute;
+          left: 52.36%;
+          right: 37.32%;
+          top: 66.49%;
+          bottom: 30.66%;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+
+          display: flex;
+          align-items: center;
+          color: #8e96a5;
+        }
+      }
+    }
+    .ret_total_time {
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      padding: 4px 12px;
+      gap: 10px;
+
+      position: absolute;
+      width: 167px;
+      height: 32px;
+      left: 29px;
+      top: 399px;
+      background: #ffffff;
+      border: 1px solid #c8d2dc;
+      border-radius: 34px;
+
+      svg {
+        width: 17.5px;
+        height: 15px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+      p {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+
+        color: #3c3f49;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+
+  .flyght_class {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 125px;
+    height: 32px;
+    left: 32px;
+    top: 481px;
+
+    background: #ffffff;
+    border: 1px solid #c8d2dc;
+    border-radius: 34px;
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 24px;
+
+      color: #3c3f49;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .pessengers {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 91px;
+    height: 32px;
+    left: 165px;
+    top: 481px;
+
+    background: #ffffff;
+    border: 1px solid #c8d2dc;
+    border-radius: 34px;
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 24px;
+
+      color: #3c3f49;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .baggage {
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 99px;
+    height: 32px;
+    left: 264px;
+    top: 481px;
+
+    background: #ffffff;
+    border: 1px solid #c8d2dc;
+    border-radius: 34px;
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 24px;
+
+      color: #3c3f49;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+  }
+  .devider {
+    .eclipse_top {
+      position: absolute;
+      left: 67.52%;
+      right: 30.45%;
+      top: -1.5%;
+      bottom: 97.15%;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+
+      background: #eaecee;
+    }
+    .vl {
+      // border-left: 1px dashed black;
+      position: absolute;
+      left: 68.41%;
+      right: -36.05%;
+      top: 2%;
+      bottom: 97.15%;
+      height: 96%;
+      border-left: 1px dashed #c7c7c7;
+    }
+    .eclipse_bottom {
+      position: absolute;
+      left: 67.39%;
+      right: 30.57%;
+      top: 98.5%;
+      bottom: 0%;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+
+      background: #e2e4e6;
+    }
+  }
+
+  .reserve {
+    h1 {
+      position: absolute;
+      left: 79.11%;
+      right: 10.83%;
+      top: 32.44%;
+      bottom: 60.43%;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #3c3f49;
+    }
+    p {
+      position: absolute;
+      width: 184px;
+      height: 24px;
+      left: 569px;
+      top: 228px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 24px;
+      color: #1a73e7;
+    }
+
+    .reserve_btn {
+      height: 48px;
+      width: 186px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 32px;
+      gap: 10px;
+      position: absolute;
+      left: 72.36%;
+      right: 3.95%;
+      top: 51.16%;
+      bottom: 40.29%;
+
+      background: #1a73e7;
+      border: none;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    .details_btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 12px;
+      gap: 6px;
+      background: #ffffff;
+      position: absolute;
+      left: 72.36%;
+      right: 3.95%;
+      top: 87.17%;
+      bottom: 7.13%;
+      border: 1px solid #c8d2dc;
+      border-radius: 4px;
+    }
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .flight-reservation {
+    visibility: hidden;
+  }
+
+  .flight_reservation_mobile {
+    position: absolute;
+    width: 330px;
+    height: 328px;
+
+    background: #ffffff;
+    border-radius: 8px;
+
+    font-family: "Noto Sans Georgian";
+    font-style: normal;
+
+    .flight_source_dest {
+      .source {
+        left: 20px;
+        position: absolute;
+        width: 92px;
+        height: 24px;
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: #3c3f49;
+      }
+      svg {
+        position: absolute;
+        left: 37.3%;
+        right: 12.5%;
+        top: 7.7%;
+        bottom: 20.83%;
+        color: #616c81;
+      }
+      .destination {
+        left: 150px;
+        position: absolute;
+        width: 70px;
+        height: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: right;
+        color: #3c3f49;
+      }
+    }
+    .fly_scedule_mob {
+      .fly_source {
+        p {
+          position: absolute;
+          width: 55px;
+          height: 32px;
+          left: 20px;
+          top: 30px;
+
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 32px;
+
+          color: #616c81;
+        }
+        span {
+          position: absolute;
+          width: 76px;
+          height: 24px;
+          left: 20px;
+          top: 80px;
+
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 24px;
+
+          color: #b2c0ce;
+        }
+      }
+      .fly_station {
+        .vector_1 {
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+          left: 23%;
+          right: 84.2%;
+          top: 19%;
+          bottom: 70.77%;
+        }
+        .line_1 {
+          position: absolute;
+          width: 60px;
+          height: 2px;
+          left: 28%;
+          right: 84.2%;
+          top: 20.5%;
+          bottom: 70.77%;
+
+          background: #c2daf9;
+        }
+        svg {
+          height: 20px;
+          width: 25px;
+
+          position: absolute;
+          left: 48%;
+          right: 84.2%;
+          top: 17.5%;
+          bottom: 70.77%;
+        }
+        .vector_2 {
+          position: absolute;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+          left: 53%;
+          right: 84.2%;
+          top: 20%;
+          bottom: 70.77%;
+        }
+        .line_2 {
+          position: absolute;
+          width: 60px;
+          height: 2px;
+          left: 58%;
+          right: 84.2%;
+          top: 20.5%;
+          bottom: 70.77%;
+
+          background: #c2daf9;
+        }
+        .vector_3 {
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #1a73e7;
+          border: 3px solid #ffffff;
+          left: 77%;
+          right: 84.2%;
+          top: 18.8%;
+          bottom: 70.77%;
+        }
+      }
+      .fly_destination {
+        p {
+          position: absolute;
+          width: 55px;
+          height: 32px;
+          left: 270px;
+          top: 30px;
+
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 32px;
+
+          color: #616c81;
+        }
+        span {
+          position: absolute;
+          width: 76px;
+          height: 24px;
+          left: 225px;
+          top: 80px;
+
+          font-weight: 600;
+          font-size: 13px;
+          line-height: 24px;
+
+          color: #b2c0ce;
+        }
+      }
+    }
+    .devider {
+      .eclipse_left {
+        position: absolute;
+        width: 12px;
+        height: 13.76px;
+        top: 48%;
+        left: -2%;
+        border-radius: 50%;
+        background: #d9d9d9;
+      }
+      .vl {
+        position: absolute;
+        left: 3.5%;
+        top: 50%;
+        width: 300px;
+        height: 1px;
+        border: 1.5px dashed #d3dbe3;
+      }
+      .eclipse_right {
+        position: absolute;
+        width: 12px;
+        height: 13.76px;
+        top: 48%;
+        left: 98%;
+        border-radius: 50%;
+        background: #d9d9d9;
+      }
+    }
+    .reserve {
+      .eclipse_bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 32px;
+        gap: 10px;
+
+        width: 250px;
+        height: 30px;
+
+        position: absolute;
+        left: 2.36%;
+        right: 3.95%;
+        top: 55.16%;
+        bottom: 40.29%;
+        color: #ffffff;
+        font-size: 20px;
+
+        background: #1a73e7;
+        border-radius: 5px;
+      }
+      p {
+        position: absolute;
+        left: 21%;
+        right: 3.95%;
+        top: 72.16%;
+        bottom: 40.29%;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 24px;
+        color: #1a73e7;
+      }
+      .more {
+        position: absolute;
+        left: 40%;
+        right: 3.95%;
+        top: 82.16%;
+        bottom: 40.29%;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #1a73e7;
+      }
+    }
+  }
+}
